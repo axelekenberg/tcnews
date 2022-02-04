@@ -8,6 +8,8 @@
     color: var(--tc-blue);
   }
 
+ 
+
   a {
     color: var(--tc-blue-dark);
   }
@@ -16,25 +18,11 @@
     background-size: cover;
     
   }
-
- .show {
-     color: white;
-     font-size: 2em;
-     margin-left: 20px;
- }
-
- .hide {
-    color: white;
-    font-size: 2em;
-}
-
-  #cont {display: none; background-color: white; color: black; padding: 1em; margin: 0; font-style: bold;}
-          .show:focus + .hide {display: inline; }
-          .show:focus + .hide + #cont {display: block;}
           
 
   .card h2 {
     text-shadow: var(--tc-blue-dark) 2px 2px 3px;
+    
   }
 
   
@@ -49,3 +37,50 @@
     left: 0;
     z-index: 1;
   }
+
+  .img-link a{
+    color: white;
+    text-decoration: none;
+    
+  }
+
+  .img-link a:hover{
+    color: white;
+    text-decoration: none;
+ 
+  }
+
+  .title {
+ 
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    
+
+}
+
+
+.card:hover {
+  outline: 5px solid var(--tc-orange);
+  
+}
+
+
