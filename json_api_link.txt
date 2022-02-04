@@ -1,0 +1,1 @@
+http://localhost:8080/jsonapi/node/article?api-key=9dbe6d5a1fe29ac58d1e8bf286750d96
