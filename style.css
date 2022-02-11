@@ -1,99 +1,61 @@
 :root {
-    --tc-blue: rgb(71,137,198);
+    --tc-blue: rgb(71, 137, 198);
     --tc-orange: #f4b834;
-    --tc-blue-dark: rgb(35,45,55);
-  }
+    --tc-blue-dark: rgb(35, 45, 55);
+}
 
-  .news {
+.news {
     color: var(--tc-blue);
-  }
+}
 
- 
-
-  a {
+a {
     color: var(--tc-blue-dark);
-  }
+}
 
-  .card {
+.card {
     background-size: cover;
-    
-  }
-          
+}
 
-  .card h2 {
+.card h2 {
     text-shadow: var(--tc-blue-dark) 2px 2px 3px;
-    
-  }
+}
 
-  
-
-
-
-  .card-link span {
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
+.card-link span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
     left: 0;
     z-index: 1;
-  }
+}
 
-  .img-link a{
-    color: white;
-    text-decoration: none;
-    
-  }
-
-  .img-link a:hover{
-    color: white;
-    text-decoration: none;
- 
-  }
-
-  .title {
- 
+.title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 
 .card-block {
-    font-size: 1em;
     position: relative;
     margin: 0;
     padding: 1em;
     border: none;
-    border-top: 1px solid rgba(34, 36, 38, .1);
     box-shadow: none;
-     
 }
+
 .card {
-    font-size: 1em;
-    overflow: hidden;
-    border: none;
     border-radius: .28571429rem;
-    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     width: 100%;
     text-align: left;
 }
 
-
-
-#content h3 {
-  text-align: left;
- 
-}
-
 .card:hover {
-  outline: 5px solid var(--tc-orange);
-  
-  
+    border-left: 8px solid var(--tc-orange);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25), 0 1rem 1rem rgba(0, 0, 0, 0.22);
 }
 
-
-
-
-.hide{
-  display: none;
-  text-align: center;
+.hide {
+    display: none;
+    text-align: center;
 }
-
